@@ -24,6 +24,11 @@ investigates the Coffee House coupons, check to see which groups of driver are m
     - The slighter broader group all female professionals who went to a Coffee House more than once a month in the morning is also good (70.8%)
     - Those who went to a coffee house more than once a month when temperature is 80 and the exprration is 1-day (77.6%)
     - Those who went to a Coffee House more than once a month with friends as passengers and with a Bachelors or higher education (75.6%)
-    
+
+#### Next Steps for coffee house coupons
+
+The dataframe has many columns and I only explored a few of them, I am sure there are other approaches that can have equally good or better results(acceptance rate).
+
+Two other set of columns look promising are (toCoupon_GEQ5min, toCoupon_GEQ15min, toCoupon_GEQ25min) and (direction_same, direction_opp), they represent the time of driving to the coupon business and whether the coupon business is in the same direction of the destination. I expect shorter time of driving will have higher acceptance rate, I also expect coupon business in the same direction of destination to have higher acceptance rate. However I need analysis to support my hypothesis.
 
 #### The Jupyter Notebook is: [prompt.ipynb](https://github.com/sgirem463/ML-AI-Driver-Coupons/blob/d6b9f563499c4bddf2f838773ee0e9d7a5182f5f/prompt.ipynb)
